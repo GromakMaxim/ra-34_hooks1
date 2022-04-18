@@ -30,7 +30,7 @@ export default function List(props) {
     }
 
     return (
-        <div className='list'>
+        <div className='list b1'>
             {renderList()}
         </div>
     );

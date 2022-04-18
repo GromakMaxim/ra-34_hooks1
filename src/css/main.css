@@ -1,0 +1,13 @@
+.widget{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.list{
+    width: 30%;
+}
+
+.list_item{
+    padding: 10px;
+}
