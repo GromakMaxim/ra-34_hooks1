@@ -5,7 +5,6 @@ import axios from "axios";
 export default function List(props) {
     const [data, setData] = useState([]);
 
-
     useEffect(() => {
         const fetchData = async () => {
             const result = await axios(
@@ -25,7 +24,6 @@ export default function List(props) {
             let obj = item;
             arr.push(<ListItem key={obj.id} params={obj}/>);
         }
-        console.log(arr)
         return arr;
     }
 

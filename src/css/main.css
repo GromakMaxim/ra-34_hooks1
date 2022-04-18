@@ -10,4 +10,9 @@
 
 .list_item{
     padding: 10px;
+    cursor: pointer;
+}
+
+.list_item:hover{
+    background-color: #0f7ffa;
 }
