@@ -1,11 +1,11 @@
-import React, {Component, useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import List from "./List";
 import Details from "./Details";
 import '../css/main.css';
 import '../css/default.css';
 import axios from "axios";
 
-export default function Widget(props){
+export default function Widget(props) {
     const [selectedProfile, setProfile] = useState(); // выбранный профиль
     const [selectedId, setData] = useState(); // id профиля
 
@@ -22,7 +22,6 @@ export default function Widget(props){
         }
 
     }, [selectedId]);
-
 
 
     return (
