@@ -10,7 +10,6 @@ export default function List(props) {
             const result = await axios(
                 "https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data/users.json",
             );
-
             setData(result.data);
         };
 
