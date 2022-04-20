@@ -21,7 +21,7 @@ export default function List(props) {
         let arr = [];
         for (let item of data) {
             let obj = item;
-            arr.push(<ListItem key={obj.id} params={obj}/>);
+            arr.push(<ListItem key={obj.id} params={obj} getById={props.getById}/>);
         }
         return arr;
     }
