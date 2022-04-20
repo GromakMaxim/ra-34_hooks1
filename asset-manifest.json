@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ra-34_hooks/static/css/main.a070d4bf.css",
+    "main.js": "/ra-34_hooks/static/js/main.35db6885.js",
+    "static/js/787.338510d2.chunk.js": "/ra-34_hooks/static/js/787.338510d2.chunk.js",
+    "index.html": "/ra-34_hooks/index.html",
+    "main.a070d4bf.css.map": "/ra-34_hooks/static/css/main.a070d4bf.css.map",
+    "main.35db6885.js.map": "/ra-34_hooks/static/js/main.35db6885.js.map",
+    "787.338510d2.chunk.js.map": "/ra-34_hooks/static/js/787.338510d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a070d4bf.css",
+    "static/js/main.35db6885.js"
+  ]
+}
